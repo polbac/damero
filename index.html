@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <link rel="stylesheet" href="styles.css">
-    <body>
-        <div class="wrapper">
-            <div class="col col-1"></div>
-            <div class="col col-2"></div>
-            <div class="col col-3"></div>
-        </div>
-    </body>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <main style='overflow: hidden;'>
+        <div class="col-1" style='position:absolute;width:25%;float:left;word-break: break-word;font-size:30px'></div>
+        <div class="col-2" style='position:absolute;left:25%;width:25%;float:left;word-break: break-word;font-size:30px'></div>
+        <div class="col-3" style='position:absolute;left:50%;width:25%;float:left;word-break: break-word;font-size:30px'></div>
+    </main>
+    
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/column-scroll.js"></script>
+    <script src="js/block.js"></script>
+    <script src="js/index.js"></script>
 </html>
