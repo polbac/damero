@@ -1,4 +1,14 @@
+var columns = [
+    new ColumnScroll(1, $('.columna1')),
+    new ColumnScroll(-1, $('.columna2')),
+    new ColumnScroll(1, $('.columna3'))
+];
 
-const column1 = new ColumnScroll(1, $('.col-1'));
-//const column2 = new ColumnScroll(-1, $('.col-2'));
-//const column3 = new ColumnScroll(1, $('.col-3'));
+$('body').on('mousewheel', mouseWheel.bind(this));
+
+function mouseWheel(event) {
+    const delta = event.originalEvent.wheelDelta;
+    columns.forEach(c => {
+        c.setWheel(delta);
+    });
+}

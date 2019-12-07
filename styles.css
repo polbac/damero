@@ -1,24 +1,101 @@
-.col {
-    width: 33.33%;
-    float: left;
-    letter-spacing: -2px;
+body,html{
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
-    font-size: 28px;
-    padding: 10px;
-    box-sizing: border-box;
-    word-wrap: break-word;
+}
+::-moz-selection {
+    color: #FFF;
+    background: transparent;
+  }
+  
+  ::selection {
+    color: #FFF;
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 2.5vw;
+    line-height: 0.9;
+    background:white;
+    color:black;
+  }
+  .columna1 {
+    width: 33.33vw;
+    height: 100vh;
+    padding: 0.4vh 0 0.4vh 0.2vw;
     position: absolute;
-    font-family: 'Courier New', Courier, monospace;
-}
-.col-1{}
-.col-2{left:33.33%;}
-.col-3{left:66.66%;}
-.el {
+    text-align: justify;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    word-wrap: break-word;
+  }
+  
+  .columna2 {
+    width: 33.33vw;
+    height: 100vh;
+    padding: 0.4vh 0 0.4vh 0.12vw;
+    position: absolute;
+    text-align: justify;
+    margin-left: 33.3vw;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    word-wrap: break-word;
+  }
+  
+  .columna3 {
+    width: 33.33vw;
+    height: 100vh;
+    padding: 0.4vh 0.2vw 0.4vh 0;
+    position: absolute;
+    text-align: justify;
+    margin-left: 66.6vw;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    word-wrap: break-word;
+  }
+  .block {
+    position: absolute;
     width: 100%;
-}
-
-html,body {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-}
+  }
+  .bloque1 {
+    letter-spacing: -0.025vw;
+  }
+  
+  .bloque2 {
+    letter-spacing: -0.01vw;
+  }
+  
+  .bloque3 {
+    letter-spacing: -0.01vw;
+  }
+  
+  .bloque4 {
+    letter-spacing: -0.01vw;
+  }
+  
+  .bloque5 {
+    letter-spacing: -0.012vw;
+  }
+  
+  .bloque6 {
+    letter-spacing: -0.01vw;
+  }
+  
+  .bloque7 {
+    letter-spacing: -0.01vw;
+  }
+  
+  .bloque8 {
+    letter-spacing: -0.01vw;
+  }
+  
+  .bloque9 {
+    letter-spacing: -0.01vw;
+  }
