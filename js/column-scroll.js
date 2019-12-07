@@ -18,6 +18,16 @@ class ColumnScroll {
         this.$wrapper = $wrapper;
         this.update();
         this.interval = setInterval(this.update.bind(this), this.TICK);
+        $(window).resize(this.resize.bind(this));
+    }
+
+    resize() {
+        let y = this.blocks[0].getY()
+        this.blocks.forEach(b => {
+            b.setY(y);
+            y += b.height();
+        });
+        this.update();
     }
 
     setWheel(delta) {

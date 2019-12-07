@@ -64,6 +64,10 @@ body,html{
     position: absolute;
     width: 100%;
   }
+
+  .block0{
+    letter-spacing: -0.01vw;
+  }
   .bloque1 {
     letter-spacing: -0.025vw;
   }
