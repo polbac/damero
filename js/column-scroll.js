@@ -37,7 +37,6 @@ class ColumnScroll {
             const block = this.blocks[index];
 
             if (block.getY() + block.height() < 0) {
-                console.log('remove1')
                 this.blocks.splice(index, 1);
                 block.remove();
             }
@@ -48,7 +47,6 @@ class ColumnScroll {
             const block = this.blocks[index];
 
             if (block.getY() > $(window).height()) {
-                console.log('remove2')
                 block.remove();
                 this.blocks.splice(index, 1);
             }
