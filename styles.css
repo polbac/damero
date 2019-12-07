@@ -25,6 +25,17 @@ body,html{
     background:white;
     color:black;
   }
+
+  /* @keyframes x-move {
+    0%, 100% {transform: translateX(-100px);}
+    50% {transform: translateX(100px);}
+  }
+
+  @keyframes x-move-1 {
+    50% {transform: translateX(-100px);}
+    0%, 100% {transform: translateX(100px);}
+  } */
+  
   .columna1 {
     width: 33.33vw;
     height: 100vh;
@@ -34,6 +45,9 @@ body,html{
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none;
     word-wrap: break-word;
+    /* animation: x-move 4s infinite; */
+
+
   }
   
   .columna2 {
@@ -46,6 +60,7 @@ body,html{
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none;
     word-wrap: break-word;
+    /* animation: x-move-1 4s infinite; */
   }
   
   .columna3 {
@@ -59,6 +74,7 @@ body,html{
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none;
     word-wrap: break-word;
+    /* animation: x-move 4s infinite; */
   }
   .block {
     position: absolute;
