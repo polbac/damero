@@ -1,6 +1,6 @@
 
 class ColumnScroll {
-    BLOCKS_IN_MEMORY = 4;
+    BLOCKS_IN_MEMORY = 10;
     VERTICAL_DIRECTION = 1;
     SCROLL_SPEED = 1;
     TICK = 20;

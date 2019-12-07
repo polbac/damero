@@ -99,3 +99,15 @@ body,html{
   .bloque9 {
     letter-spacing: -0.01vw;
   }
+
+  @media (max-width: 640px) {
+    .columna3 {
+      display: none;
+    }
+    .columna1,.columna2 {
+      width: 50%;
+    }
+    .columna2{
+      margin-left: 50vw;
+    }
+  }
